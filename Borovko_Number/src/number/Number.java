@@ -3,8 +3,8 @@ package number;
 import java.util.Scanner;
 
 /*****************************************************
- * Составить алгоритм : если введеное число больше 7,*
- *  то вывести "Привет"								 *
+ * РЎРѕСЃС‚Р°РІРёС‚СЊ Р°Р»РіРѕСЂРёС‚Рј : РµСЃР»Рё РІРІРµРґРµРЅРѕРµ С‡РёСЃР»Рѕ Р±РѕР»СЊС€Рµ 7,*
+ *  С‚Рѕ РІС‹РІРµСЃС‚Рё "РџСЂРёРІРµС‚"				     *
  *****************************************************/
 
 public class Number {
@@ -16,10 +16,10 @@ public class Number {
 		try {
 			double var = Double.parseDouble(s);
 			if (var > value) {
-				System.out.print("Привет");
+				System.out.print("РџСЂРёРІРµС‚");
 			}
 		} catch (NumberFormatException e) {
-			System.out.print("Значение не является числом, перезапустите программу");
+			System.out.print("Р—РЅР°С‡РµРЅРёРµ РЅРµ СЏРІР»СЏРµС‚СЃСЏ С‡РёСЃР»РѕРј, РїРµСЂРµР·Р°РїСѓСЃС‚РёС‚Рµ РїСЂРѕРіСЂР°РјРјСѓ");
 		}
 
 	}
@@ -27,7 +27,7 @@ public class Number {
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
 
-		System.out.print("Введите любое число и нажмите 'Enter' ");
+		System.out.print("Р’РІРµРґРёС‚Рµ Р»СЋР±РѕРµ С‡РёСЃР»Рѕ Рё РЅР°Р¶РјРёС‚Рµ 'Enter' ");
 		Scanner scan = new Scanner(System.in);
 		String str = scan.nextLine();
 		func(str);
